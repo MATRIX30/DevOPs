@@ -25,11 +25,11 @@ class MyTest(TestCase):
         resp = self.client.get('')
         with self.assertHTML(resp, element_id='survey') as survey:
             self.assertIsNotNone(survey)
-            
+
 
     def test_false_is_false(self):
         print("Method: test_false_is_false.")
-        self.assertFalse(True)
+        self.assertFalse(False)
 
     # def test_false_is_true(self):
     #     print("Method: test_false_is_true.")
