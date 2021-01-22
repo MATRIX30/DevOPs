@@ -6,8 +6,8 @@ install:
 script:
 - python manage.py test
 
-after_success:
-- python manage.py runserver
+# after_success:
+# - python manage.py runserver
 # deploy:
 #   provider: heroku
 #   api_key:
