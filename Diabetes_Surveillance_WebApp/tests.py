@@ -27,9 +27,9 @@ class MyTest(TestCase):
             self.assertIsNotNone(survey)
             
 
-    # def test_false_is_false(self):
-    #     print("Method: test_false_is_false.")
-    #     self.assertFalse(False)
+    def test_false_is_false(self):
+        print("Method: test_false_is_false.")
+        self.assertFalse(True)
 
     # def test_false_is_true(self):
     #     print("Method: test_false_is_true.")
